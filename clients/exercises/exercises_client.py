@@ -27,7 +27,7 @@ class CreateExerciseRequestDict(TypedDict):
 
 class UpdateExerciseRequestDict(TypedDict):
     """
-    Описание структуры запроса на обновление данных задания курса.
+    Описание структуры запроса на обновление данных задания определенного курса.
     """
     title: str | None
     maxScore: int | None
