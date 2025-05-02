@@ -48,6 +48,9 @@ def get_user_me(httpx_client: httpx.Client, auth_token: str) -> httpx.Response:
 
 if __name__ == "__main__":
     login_response = get_access_token(client, USER_EMAIL, USER_PASSWORD)
-    access_token = login_response.json().get("token", "").get("accessToken", "")
-    if access_token:
+    try:
+        access_token = login_response.json()["token"]["accessToken"]
         get_user_me(client, access_token)
+    except (KeyError, TypeError, ValueError):
+        print("Ошибка при получении токена")
+
