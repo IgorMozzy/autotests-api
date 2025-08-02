@@ -10,6 +10,7 @@ class ExerciseSchema(BaseModel):
 
     id: str
     title: str
+    course_id: str = Field(alias="courseId")
     max_score: int = Field(alias="maxScore")
     min_score: int = Field(alias="minScore")
     order_index: int = Field(alias="orderIndex")
@@ -21,6 +22,8 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка заданий для определенного курса.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     course_id: str = Field(alias="courseId")
 
 
@@ -72,4 +75,11 @@ class UpdateExerciseResponseSchema(BaseModel):
     Описание структуры ответа обновления упражнения курса.
     """
     exercise: ExerciseSchema
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа получения конкретного задания.
+    """
+    exercise: ExerciseSchema
+
 
