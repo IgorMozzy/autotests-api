@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ4LjM4MDI5NSIsInVzZXJfaWQiOiI0NGU2NDZjYi04MmJjLTRkZDctOGQ4Mi1hMTZjYzRlNGQ3N2UifQ.xj0LONodJOW_Gtp9hYqS6AYnS-Vs_4TccKfmKGSs4KU' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten spring save crime there.","maxScore":63,"minScore":15,"description":"Least skill fight home call tax rule. Yes yourself machine when coach allow if head.\nStreet national film third.","estimatedTime":"6 weeks","previewFileId":"2afaf841-1d00-471f-8dbd-a64016071df4","createdByUserId":"44e646cb-82bc-4dd7-8d82-a16cc4e4d77e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ3LjQ1MzgxMSIsInVzZXJfaWQiOiI0ZmIyNTc2OS00MTU1LTQzZGQtOTliOS02ODEyZWVlNmE2YWYifQ.hKecWz6Er6Ggu9WnTfqpmClIqosrcVH2zEixPN6MNSw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference realize in million trip religious school.","maxScore":99,"minScore":11,"description":"Body size necessary heavy hold arrive. Finish some art list.\nPlayer bill subject floor cost. Country bad cold over current brother.","estimatedTime":"1 weeks","previewFileId":"efe710e1-f26b-4670-9bbe-11e15cfc3136","createdByUserId":"4fb25769-4155-43dd-99b9-6812eee6a6af"}'

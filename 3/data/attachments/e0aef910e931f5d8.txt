@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ5LjU2NzIyNyIsInVzZXJfaWQiOiJjMjBkYzE1Ny1jMWIzLTRkNmItOTdjZC04NDc5ZWUyNzM4MmMifQ.JfOK0l4LOpldwDgrJnV5Ef66dzyihtdW9plLQ_4-jkE' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Daughter simply general young recently force.","maxScore":73,"minScore":22,"description":"Yet model certainly him. Find Mrs serious.\nSister phone until run amount day or. War include ability hot as project laugh. Piece step physical ever evening defense.","estimatedTime":"2 weeks","previewFileId":"7b6e3d4c-0767-43d4-b27d-345ad21cfdd3","createdByUserId":"c20dc157-c1b3-4d6b-97cd-8479ee27382c"}'

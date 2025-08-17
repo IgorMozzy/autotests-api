@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ2LjAzNTgxMSIsInVzZXJfaWQiOiJhYWNkOTQwMC1jZjI1LTQ0YTEtYjVhZS1hNjBlOTUwYWVhYmQifQ.Q9YnOaOFpa3XbE03WHF4n2HwXQp660aqxyRm1sx_jjQ' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whom argue identify series friend begin window company.","maxScore":93,"minScore":20,"description":"Son gun weight think will chair civil.\nClose where house second result question. Agree would break situation lot us Congress. Phone interest appear network another control.","estimatedTime":"8 weeks","previewFileId":"70cd69b1-158c-4428-8cf6-5236392d04b0","createdByUserId":"aacd9400-cf25-44a1-b5ae-a60e950aeabd"}'

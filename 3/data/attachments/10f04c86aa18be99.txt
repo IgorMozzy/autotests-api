@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ3LjE3ODM5NSIsInVzZXJfaWQiOiIyMmJmODBhMi03ODA3LTQ4ZDEtYTg4Ny1iNmU1ZTI2MzQ5ODUifQ.VOFAF_9qwSTrZ6sKlytTiM9LmBdVkNsd6JJUv5UDEUo' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Positive alone order reach happy push.","maxScore":54,"minScore":11,"description":"This girl music each actually close. Human chair technology responsibility treatment happy.","estimatedTime":"3 weeks","previewFileId":"969bbcf3-6242-4ff6-ac89-458ba556127a","createdByUserId":"22bf80a2-7807-48d1-a887-b6e5e2634985"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ5Ljg0MDA0NiIsInVzZXJfaWQiOiIzNzE5NDFmOS1kMjI1LTRiZDUtYTk0ZC02ZWU4NTBhMDQ2NGQifQ.GH70XApbHFW00uxw3RyaflMyHd5bBnqWadShYG0lXhQ' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause single pull imagine factor rich employee.","maxScore":94,"minScore":13,"description":"Hotel various fear newspaper clear notice. Action amount expert imagine.\nOption until try risk. Enjoy most attorney left thus. Other whether development myself join may turn.","estimatedTime":"5 weeks","previewFileId":"6d4716ae-8cb9-4ebe-b835-1957f37a428a","createdByUserId":"371941f9-d225-4bd5-a94d-6ee850a0464d"}'

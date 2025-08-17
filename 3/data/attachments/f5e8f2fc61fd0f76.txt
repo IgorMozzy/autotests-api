@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ4LjY1NDk0MSIsInVzZXJfaWQiOiI5NjAwZDY1OC0wNzllLTRiZTItYjhjZS1jNGYyMzVkYTExZGQifQ.41uOe2hHtDYt6DCug9gu-PuKtOxGh28D5kt_0FL-HTY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"The fire process air brother staff.","maxScore":60,"minScore":30,"description":"Employee may different her. Current most tax help day action southern. Newspaper form explain memory reality.","estimatedTime":"3 weeks","previewFileId":"bbbd7f9d-42a3-4a8e-a96e-a4ac5fd5254c","createdByUserId":"9600d658-079e-4be2-b8ce-c4f235da11dd"}'

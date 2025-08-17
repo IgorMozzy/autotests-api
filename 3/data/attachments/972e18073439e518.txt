@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e4d1e7c7-2a93-4c99-8f00-901a76065dd2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ3LjE3ODM5NSIsInVzZXJfaWQiOiIyMmJmODBhMi03ODA3LTQ4ZDEtYTg4Ny1iNmU1ZTI2MzQ5ODUifQ.VOFAF_9qwSTrZ6sKlytTiM9LmBdVkNsd6JJUv5UDEUo' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Occur high work.","maxScore":79,"minScore":19,"description":"High science claim nature reason. Material other happen tax bad charge machine. Truth small start possible fly five special. Citizen bag deep southern activity.\nOther north rate lose whom.","estimatedTime":"1 weeks"}'

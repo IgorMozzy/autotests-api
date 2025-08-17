@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE5OjAyOjQ4LjM4MDI5NSIsInVzZXJfaWQiOiI0NGU2NDZjYi04MmJjLTRkZDctOGQ4Mi1hMTZjYzRlNGQ3N2UifQ.xj0LONodJOW_Gtp9hYqS6AYnS-Vs_4TccKfmKGSs4KU' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fund game entire among simply hope factor.","courseId":"24e7084a-f71e-450d-a578-d11a7a81ee6f","maxScore":52,"minScore":24,"orderIndex":78,"description":"Thought air image we time decade. Gas star thousand should participant central tax. Lay throw court deep federal beyond.\nControl chair opportunity statement arrive as ten. Boy discussion call high.","estimatedTime":"5 weeks"}'
