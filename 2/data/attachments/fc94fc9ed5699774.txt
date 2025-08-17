@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA1LjMyNjUzMSIsInVzZXJfaWQiOiJkMGRmN2QyMy03YzRjLTQzZTMtYTZiNC1lZjFmY2RmYTRkM2UifQ.OigynVGg5BfyJG-hEM685p_jZnzR4G-8RtnlIGpqJtc' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect real agent thing type turn attorney.","maxScore":61,"minScore":28,"description":"Pressure though find television tend over data down. Group return again involve give read Mr.\nCity finish protect forget simply rock.","estimatedTime":"2 weeks","previewFileId":"19951fc3-c480-4754-8cb3-f04ae75b777e","createdByUserId":"d0df7d23-7c4c-43e3-a6b4-ef1fcdfa4d3e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjAyLjk4NDAwMCIsInVzZXJfaWQiOiI4ODVhZjg5OC03OGRhLTRlZmEtOTZjZi1hMTdmMjYxYmZmNmUifQ.zDwVbjzkEgM92LEvrTdaoV4dBHohbUGKdBymEeAdNq0' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bag painting live mention.","maxScore":71,"minScore":27,"description":"Heavy including in office also bring. Another pick TV than as. Probably stock why.\nActually customer resource world. Art and suddenly free certain participant option front.","estimatedTime":"7 weeks","previewFileId":"a1fa5a56-d7cc-4f08-8738-360992f74838","createdByUserId":"885af898-78da-4efa-96cf-a17f261bff6e"}'

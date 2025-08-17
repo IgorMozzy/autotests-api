@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/068022dd-1e3b-482e-900f-8be538bc7acf' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjAyLjk4NDAwMCIsInVzZXJfaWQiOiI4ODVhZjg5OC03OGRhLTRlZmEtOTZjZi1hMTdmMjYxYmZmNmUifQ.zDwVbjzkEgM92LEvrTdaoV4dBHohbUGKdBymEeAdNq0' \
+  -H 'content-length: 249' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blood tough quickly agreement two admit information.","maxScore":57,"minScore":14,"description":"At myself station lose democratic. Mind participant eight federal eye big pattern question. I bank help candidate.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA1Ljk1NDI3MCIsInVzZXJfaWQiOiJhN2ZjMjg5NS0zMmExLTQwZjctOGNkZC05OWJkODFlZDg4MjUifQ.iFvL1_jVKmCJ_rmPIbqqPvSTV_pYisVcBL5GLMbyrLE' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly care line finish meeting inside.","courseId":"7197dfb7-5a89-4dee-8156-69d2498becce","maxScore":74,"minScore":18,"orderIndex":52,"description":"Cold event trip hope. Notice according including partner. Consumer bag usually doctor. Attorney foot watch amount wide fact offer.\nOil per work baby.","estimatedTime":"3 weeks"}'

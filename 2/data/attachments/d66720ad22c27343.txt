@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA0Ljc0NDQ0NSIsInVzZXJfaWQiOiI1NGE3ODU3ZS00MzU5LTRmMTMtOWRmYS04YTE1NWJiYmUzMTYifQ.LqIwPY1817OEz_1vnqhpJV0oyS9PZ9R6hN0tiskoNQY' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Allow wife wear bar.","maxScore":88,"minScore":5,"description":"Deep personal personal. School certainly certainly white bar improve.\nTv author life yourself pick. Throughout when tax result the.","estimatedTime":"9 weeks","previewFileId":"517d8e76-7aa8-44b5-a7db-88466dcf7384","createdByUserId":"54a7857e-4359-4f13-9dfa-8a155bbbe316"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA1Ljk1NDI3MCIsInVzZXJfaWQiOiJhN2ZjMjg5NS0zMmExLTQwZjctOGNkZC05OWJkODFlZDg4MjUifQ.iFvL1_jVKmCJ_rmPIbqqPvSTV_pYisVcBL5GLMbyrLE' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us side shake behavior.","maxScore":63,"minScore":4,"description":"Court wall prevent each officer if third. City save opportunity memory picture any Congress under. Here gun early meeting all option.","estimatedTime":"4 weeks","previewFileId":"acd68ecf-ea15-4236-be76-2044cb8e94c5","createdByUserId":"a7fc2895-32a1-40f7-8cdd-99bd81ed8825"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA1LjMyNjUzMSIsInVzZXJfaWQiOiJkMGRmN2QyMy03YzRjLTQzZTMtYTZiNC1lZjFmY2RmYTRkM2UifQ.OigynVGg5BfyJG-hEM685p_jZnzR4G-8RtnlIGpqJtc' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such majority race everyone break history.","courseId":"8b93e056-7feb-468c-bdc6-234d421dd198","maxScore":81,"minScore":30,"orderIndex":6,"description":"College official or second board finish. Character thank you life. Song kid often.\nMe behind compare get. Hotel sometimes reflect significant office case. Simple these fill bad him behavior.","estimatedTime":"6 weeks"}'

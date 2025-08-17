@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjA2LjU0OTIwNSIsInVzZXJfaWQiOiIxMjNhNGQ3Ny0zZWQwLTQ1MTUtODk2NC1jYzI0MjJhMGMxOGQifQ.XjX7kq15VVLt-c0zgK9siIflDkt4_oBONbD7f-S-S14' \
+  -H 'content-length: 241' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require together reduce southern.","courseId":"36690479-161e-43e6-9640-c82c1c747800","maxScore":84,"minScore":10,"orderIndex":68,"description":"Rest manage benefit stay address especially certain letter.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE3VDE4OjQyOjAzLjU3ODA3OCIsInVzZXJfaWQiOiIwMWZmMTA2MS1kODM5LTQwYWYtOWE0Mi05ZjFlZjAzYzM4ZTgifQ._gXqteE-EQwygwR3YuU4dABubL3KoZuSyC_bbS3IrFc' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effort claim film.","maxScore":94,"minScore":26,"description":"Case class century hot drop. Lawyer hour generation usually. Pass age help indicate. After you truth return attorney age alone art.","estimatedTime":"7 weeks","previewFileId":"e1996349-bdfd-402a-898b-794c2774ab10","createdByUserId":"01ff1061-d839-40af-9a42-9f1ef03c38e8"}'
