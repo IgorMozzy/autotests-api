@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE4OjAwOjU5LjA0NzM0MiIsInVzZXJfaWQiOiIyZDc0NDIxZS0yNzBlLTRlMjgtOTlhZC0wYjVmODM0YTUwMGQifQ.uPFG1ShHU5zjgJxAOJN_kGzckLDz5uk7dCb4owLx6uk' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area thing film store suffer positive exist.","maxScore":94,"minScore":24,"description":"Should close represent result. College notice use. Pressure action sometimes next service public modern.\nFact pattern grow similar cause its. Election off behavior huge though.","estimatedTime":"10 weeks","previewFileId":"bee74a6f-dfa7-4b16-9765-0a7256a45484","createdByUserId":"2d74421e-270e-4e28-99ad-0b5f834a500d"}'

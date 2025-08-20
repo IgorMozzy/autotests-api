@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE4OjAwOjU4LjQwODQ1OCIsInVzZXJfaWQiOiJjYjc1ZDgyMS1mNDM0LTRiZjQtOWU5My1iNjI3MjRlMTc3MDgifQ.Lizy_079Ji0euqksxup4OQ3Y2RC9ZwwTb8NaXFunwr8' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Entire law treatment agreement.","courseId":"9140eaf6-2a4d-4636-ae5b-2a971e4807c9","maxScore":87,"minScore":9,"orderIndex":9,"description":"Raise space across animal. Professor contain black through reflect process.\nCertainly threat response account. Lay season daughter affect.","estimatedTime":"5 weeks"}'

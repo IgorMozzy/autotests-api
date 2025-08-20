@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE4OjAwOjU1LjQ3MjA5MiIsInVzZXJfaWQiOiI2NDI4MDhkNC1kZjA1LTQxYTAtYjZkYy1mODk3YzU5NGM3ODQifQ.U1W_PCS4zIV-9bTbjzy90UUKkpEUOteq7yhkzLF2ZWc' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His exactly set attorney home.","maxScore":95,"minScore":2,"description":"Shoulder society kitchen send. Thus hospital area finish.\nTop front choice send. Data factor shoulder environment water. Forget century raise local again either.","estimatedTime":"4 weeks","previewFileId":"0f33ddf0-02d1-4f08-a94c-eb97ab2ee1b2","createdByUserId":"642808d4-df05-41a0-b6dc-f897c594c784"}'

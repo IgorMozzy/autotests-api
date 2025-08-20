@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/446508bc-00d9-4695-8689-c01de26504b7
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/446508bc-00d9-4695-8689-c01de26504b7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:87 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:54 Check that "id" equals to 446508bc-00d9-4695-8689-c01de26504b7
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Entire law treatment agreement.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "course_id" equals to 9140eaf6-2a4d-4636-ae5b-2a971e4807c9
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:54 Check that "order_index" equals to 9
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Raise space across animal. Professor contain black through reflect process.
+Certainly threat response account. Lay season daughter affect.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

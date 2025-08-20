@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Commercial left cup open change stay majority.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Society animal sure news yourself. Process above partner attorney.
+Each leave tell research provide capital. Result them commercial way activity. Staff key think feel phone no.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:54 Check that "preview_file_id" equals to c9027e9e-8d6f-41a6-a8eb-c5e6b2b61ae2
+INFO     BASE_ASSERTIONS:base.py:54 Check that "created_by_user_id" equals to 0f1b5e5d-bc65-4485-a5d7-f141a0569a8f
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

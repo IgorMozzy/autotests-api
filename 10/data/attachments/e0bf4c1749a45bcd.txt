@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE4OjAwOjU2LjY1MDEyNSIsInVzZXJfaWQiOiIwZjFiNWU1ZC1iYzY1LTQ0ODUtYTVkNy1mMTQxYTA1NjlhOGYifQ.LDf3CWlx3uNzLVGKtjYjR0gRoZI_WdcbN27JNe10bMw' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Commercial left cup open change stay majority.","maxScore":75,"minScore":18,"description":"Society animal sure news yourself. Process above partner attorney.\nEach leave tell research provide capital. Result them commercial way activity. Staff key think feel phone no.","estimatedTime":"5 weeks","previewFileId":"c9027e9e-8d6f-41a6-a8eb-c5e6b2b61ae2","createdByUserId":"0f1b5e5d-bc65-4485-a5d7-f141a0569a8f"}'
