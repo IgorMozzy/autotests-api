@@ -74,21 +74,6 @@ jobs:
             coverage-history-
 
       - name: Generate Coverage report
-        env:
-          SWAGGER_COVERAGE_SERVICES: '[
-            {
-              "key": "api-course",
-              "name": "API Course",
-              "tags": [ "API", "COURSES" ],
-              "swagger_url": "http://localhost:8000/openapi.json"
-            }
-          ]'
-
-          SWAGGER_COVERAGE_RESULTS_DIR: "./coverage-results"
-          SWAGGER_COVERAGE_HISTORY_FILE: "./coverage-history.json"
-          SWAGGER_COVERAGE_HISTORY_RETENTION_LIMIT: 30
-          SWAGGER_COVERAGE_HTML_REPORT_FILE: "./coverage.html"
-          SWAGGER_COVERAGE_JSON_REPORT_FILE: "./coverage-report.json"
         run: |
           swagger-coverage-tool save-report
 
