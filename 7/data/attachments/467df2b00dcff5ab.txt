@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjA0LjY1Mjc4MSIsInVzZXJfaWQiOiIyZGQzODA0ZC1jNWI0LTRmMWQtYWY2OS05Y2RiYTE2MmQ5MDYifQ.Ar5pWZQ_aT4oKcMlzu0xY4ffz_aZqdmY_xyYbwDtrBw' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant than American store need.","courseId":"7f36a4a4-1344-407f-b392-c6b3389cd4f3","maxScore":65,"minScore":24,"orderIndex":46,"description":"Most skin well stuff. Seat avoid report shake difficult.\nScore low me appear. Understand car author avoid citizen us. Hundred morning crime able friend.","estimatedTime":"5 weeks"}'

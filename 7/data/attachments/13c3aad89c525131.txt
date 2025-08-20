@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAxLjYyNDQxMiIsInVzZXJfaWQiOiI5OWMxMWIyNy0xMmJiLTQ0YzgtYjBjMy0xMTBjNTcxYTFjYTIifQ.hLmzAQc7XtOxJyjh81qQ8iYERUxGlpZ_2WnIfbD6fZ0' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most between establish stand stay imagine concern.","maxScore":71,"minScore":13,"description":"Address political history admit experience model think by. Man keep board able.\nGrowth direction more serve development. Item wall yeah break put society me beat. Technology near fly.","estimatedTime":"6 weeks","previewFileId":"a30de922-bba4-4003-8ce0-83b1ee15dee2","createdByUserId":"99c11b27-12bb-44c8-b0c3-110c571a1ca2"}'

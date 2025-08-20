@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Discuss minute these day very cell control.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "course_id" equals to 7b63bbb2-b871-4c32-a4a8-1affcc86f9f8
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:54 Check that "order_index" equals to 10
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Story election kind far. Eat can child their product finally.
+From son event suffer instead behind. Machine national truth step change. Thus project Congress together girl interest each.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

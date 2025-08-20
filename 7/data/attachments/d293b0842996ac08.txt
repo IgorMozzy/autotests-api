@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAyLjU0MzUyMCIsInVzZXJfaWQiOiI4MGU2ZjRmNy03NTE3LTRlYWItYjc0Yy1jMWU4MmI2ZjQ2NzAifQ.QQx7wS8pMzHu_jzRp8_Y4AYUhokc-a0ET49p4PNNMZY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discuss minute these day very cell control.","courseId":"7b63bbb2-b871-4c32-a4a8-1affcc86f9f8","maxScore":98,"minScore":25,"orderIndex":10,"description":"Story election kind far. Eat can child their product finally.\nFrom son event suffer instead behind. Machine national truth step change. Thus project Congress together girl interest each.","estimatedTime":"7 weeks"}'

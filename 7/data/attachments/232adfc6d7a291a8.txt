@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAwLjIxMDM4MCIsInVzZXJfaWQiOiI2MTViZDdmMC0zNTkxLTQ1YjAtYjgxYi0yZTcyMTliZWNjZDEifQ.HkYx4STVUbE8066aBkVrg3eooVh8XwImlrv-4P_cg18' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid American will west hospital.","maxScore":87,"minScore":27,"description":"Table discover myself speak book else bar clearly. Simple professor include number response. Industry seek effort whose give.","estimatedTime":"9 weeks","previewFileId":"d0e6382b-df10-4611-a0d4-2776942b7f9b","createdByUserId":"615bd7f0-3591-45b0-b81b-2e7219beccd1"}'

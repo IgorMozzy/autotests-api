@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAxLjM1MTYyMiIsInVzZXJfaWQiOiIxNjRhZjMxZS1kNmYyLTQ1NzktYTQ5Mi1mZDAxZDFjNGYxNzgifQ.J2vJ_GaYZh7xbI0OFbLPBOeXb5XTbgNF928e4E5EPxE' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major beautiful recently.","maxScore":77,"minScore":2,"description":"Where yet trip parent your tree. Charge radio one film.\nImagine thank sometimes together although trade. Wife small team. Factor nation discussion child.\nQuite instead role hotel population imagine.","estimatedTime":"8 weeks","previewFileId":"d6de1c98-0201-4feb-8cf9-60b571246ebf","createdByUserId":"164af31e-d6f2-4579-a492-fd01d1c4f178"}'

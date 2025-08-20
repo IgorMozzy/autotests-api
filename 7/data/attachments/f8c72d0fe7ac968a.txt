@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/edba69ac-d82c-4845-b0b8-5983007d7800' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAxLjM1MTYyMiIsInVzZXJfaWQiOiIxNjRhZjMxZS1kNmYyLTQ1NzktYTQ5Mi1mZDAxZDFjNGYxNzgifQ.J2vJ_GaYZh7xbI0OFbLPBOeXb5XTbgNF928e4E5EPxE' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit executive collection food.","maxScore":87,"minScore":5,"description":"Across rather common. Final build garden so could once. Wall return fine agreement ball protect trip. Like low exactly current.","estimatedTime":"7 weeks"}'

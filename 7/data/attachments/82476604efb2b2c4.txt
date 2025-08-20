@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjA0LjA2ODQwMCIsInVzZXJfaWQiOiJjM2Y4NTNkOS0wOTMzLTQyYjgtYmUwNi0wODRmODNiOWYwMjgifQ.XyaMe10453Qt127PG6bJALBmc5KvIgMk6wnpUcd-8x0' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then not arm look natural others under.","courseId":"bd14c5c5-735c-41af-b8c6-3cd1909d28a1","maxScore":73,"minScore":23,"orderIndex":96,"description":"Brother move employee.\nAt of among every fish. Have production perhaps last individual. Major theory life bad.","estimatedTime":"1 weeks"}'

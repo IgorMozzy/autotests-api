@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjQyOjAzLjQ3Nzg2NCIsInVzZXJfaWQiOiIxODJmMjkzOC1iMWFhLTRhODYtYjg1ZC03NWY3ZGVkMzU5YWIifQ.ad8IOe-dXDbp-JYT4RwQIWGn0O4b_9fVxFqZLiUfbXI' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn check investment discover home.","maxScore":62,"minScore":21,"description":"Attention audience leader rather process. Those role option bag follow.\nHow receive state rather important reflect above.","estimatedTime":"10 weeks","previewFileId":"68e50da1-8a12-4946-a47c-da9cf0b54359","createdByUserId":"182f2938-b1aa-4a86-b85d-75f7ded359ab"}'
