@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjIyLjYzMDgwNSIsInVzZXJfaWQiOiIwMjM2YzBhOC0xMWMyLTQ2MGQtYjBlOC1mNGVjMDhlYTEwZjUifQ.XsNAyLliBECO0K-yQ2_RqzRWek3qe_YpFneYy2btKTY' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Religious page economic participant too.","maxScore":80,"minScore":30,"description":"Tree moment practice throughout. Investment compare scientist each sometimes chance.\nTeach language agreement risk identify. Prevent century collection either. Show remain expect of.","estimatedTime":"7 weeks","previewFileId":"8a56a9a1-de95-4582-96f5-8bd1d8a441a2","createdByUserId":"0236c0a8-11c2-460d-b0e8-f4ec08ea10f5"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ed7f7f1e-e7e7-40f8-8b65-dd46353c86fd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjIyLjYzMDgwNSIsInVzZXJfaWQiOiIwMjM2YzBhOC0xMWMyLTQ2MGQtYjBlOC1mNGVjMDhlYTEwZjUifQ.XsNAyLliBECO0K-yQ2_RqzRWek3qe_YpFneYy2btKTY' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value serve score shoulder.","maxScore":93,"minScore":3,"description":"Member down hot poor. Education professor body page produce rule spend avoid.\nTruth bad mean PM.\nOur against property. Hundred across improve story behind southern.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9cc2f115-6061-4b07-b748-88a324591480' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjI1LjY1ODE1OCIsInVzZXJfaWQiOiI0NjQxMDc3NC1kMTM0LTQ4ZDgtOTY0YS0xNzdiODliZmFkOTYifQ.DczGqPFqfGECCH-9Dymb4KSxAXcJrohAzAFW9pzEw2Q' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover son affect middle young.","maxScore":72,"minScore":1,"orderIndex":91,"description":"Ball among glass summer act. Decide father authority measure.\nMarket door ten effort standard character always. Community security ability base. Born development state radio question why head song.","estimatedTime":"9 weeks"}'

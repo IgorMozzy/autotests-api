@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjIzLjI2NzI1NSIsInVzZXJfaWQiOiI2N2E5YzRjZi0yYzEzLTRlYzktYmJkMy01MTgzZDJkMWVhOTYifQ.kx5YJsL2FCAu9cXeQ7swxyIDT_FJLlrdra1b2j9vBe8' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Budget bill thought writer would positive newspaper.","maxScore":67,"minScore":22,"description":"Fill his store who southern allow. Continue leave stay about firm office season positive. Either list rich study region.\nEdge head day great hold road. Human operation once management.","estimatedTime":"3 weeks","previewFileId":"81db53e8-22a4-4dd9-bdfb-6de03ae69778","createdByUserId":"67a9c4cf-2c13-4ec9-bbd3-5183d2d1ea96"}'

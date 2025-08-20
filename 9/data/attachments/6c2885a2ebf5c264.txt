@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjIyLjA0NTQ4NSIsInVzZXJfaWQiOiJmOTFkNjlkNi03MGE5LTQ2OWEtYjQ0OS05NmI3NmFiMDY5NTUifQ.rI6XFWFlFRKm9kWaj0fEYPB9VVcgJkNfu4_jDIoVkPE' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give best me question only suggest base.","maxScore":72,"minScore":11,"description":"If exactly air morning consumer everything traditional. Other director teacher animal.\nMovement lay lay south. Finish truth situation.","estimatedTime":"7 weeks","previewFileId":"c34e16ae-5304-47de-b86a-d87d030cc640","createdByUserId":"f91d69d6-70a9-469a-b449-96b76ab06955"}'

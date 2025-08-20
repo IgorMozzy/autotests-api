@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIwVDE3OjU0OjI2LjI0MDA0OCIsInVzZXJfaWQiOiJkNDg0ZDE1Mi04Y2ZjLTQzZWYtYmU1MS02MGQ4ZDk3ODAxODYifQ.EAngZ2Bfag24NnhFYJNgW-k7e4kaymYrxltUBDaEw5M' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North national contain simply serve.","maxScore":90,"minScore":12,"description":"Bad bit green receive. Sound line sign child western edge know.\nTrial method training cultural great number near as. Compare manage remember skin responsibility. Start sometimes its majority move a.","estimatedTime":"3 weeks","previewFileId":"0618a5be-48b9-4408-8a07-6a9aea114edd","createdByUserId":"d484d152-8cfc-43ef-be51-60d8d9780186"}'
