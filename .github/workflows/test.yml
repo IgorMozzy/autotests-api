@@ -42,9 +42,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Load env from .env.ci
+        run: |
+          set -o allexport
+          source .env.ci
+          set +o allexport
+
       - name: Run API tests with pytest and generate Allure results
         run: |
-          export $(cat .env.ci | xargs)
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
       - name: Restore Coverage history
