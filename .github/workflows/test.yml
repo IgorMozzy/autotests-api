@@ -42,13 +42,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Load env from .env.ci
-        run: |
-          set -o allexport
-          source .env.ci
-          set +o allexport
-
       - name: Run API tests with pytest and generate Allure results
+        env:
+          TEST_DATA.IMAGE_PNG_FILE: "./testdata/files/img.png"
+
+          HTTP_CLIENT.URL: "http://localhost:8000"
+          HTTP_CLIENT.TIMEOUT: 100
+
+          SWAGGER_COVERAGE_SERVICES: '[
+          {
+            "key": "api-course",
+            "name": "API Course",
+            "tags": [ "API", "COURSES" ],
+            "swagger_url": "http://localhost:8000/openapi.json"
+          }
+      ]'
+
+          SWAGGER_COVERAGE_RESULTS_DIR: "./coverage-results"
+          SWAGGER_COVERAGE_HISTORY_FILE: "./coverage-history.json"
+          SWAGGER_COVERAGE_HISTORY_RETENTION_LIMIT: 30
+          SWAGGER_COVERAGE_HTML_REPORT_FILE: "./coverage.html"
+          SWAGGER_COVERAGE_JSON_REPORT_FILE: "./coverage-report.json"
+
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
