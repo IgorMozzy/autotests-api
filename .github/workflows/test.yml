@@ -43,12 +43,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API tests with pytest and generate Allure results
-        env:
-          TEST_DATA.IMAGE_PNG_FILE: "./testdata/files/img.png"
-
-          HTTP_CLIENT.URL: "http://localhost:8000"
-          HTTP_CLIENT.TIMEOUT: 100
         run: |
+          export $(cat .env.ci | xargs)
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
       - name: Restore Coverage history
