@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM2LjI1ODQ5MyIsInVzZXJfaWQiOiJhMDdhNTFlNS0wYzg5LTQ4MDItODJkZC0xMjk0NTNjYjYxMWMifQ.zUU64JZcuh2FXPnWUZr_ItxRMd0PUqqgOecQ_FIGIIo' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environmental worker brother democratic reflect nice stuff.","maxScore":94,"minScore":13,"description":"Sister less person.\nDirector cost article career country word. Growth usually gun catch apply situation.","estimatedTime":"5 weeks","previewFileId":"9e502595-7930-4289-9390-2c9df5136af6","createdByUserId":"a07a51e5-0c89-4802-82dd-129453cb611c"}'

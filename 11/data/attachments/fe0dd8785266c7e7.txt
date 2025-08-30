@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM5LjUwNjE0NCIsInVzZXJfaWQiOiJlZTc5YzNlZS1lZjczLTQxOWUtYTJmOS1kMzhhNDEzOTg5YWYifQ.tfo2Wn2LPAhrVtE2aaY8Ye0rATwfUJbDDN67AbWBchc' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society cup each international responsibility yeah.","courseId":"61675887-e26c-43b9-815a-f03e3d65447a","maxScore":60,"minScore":7,"orderIndex":67,"description":"Any wish rest movement. Perhaps mouth wrong adult behavior.\nUs dinner tonight career. Speech card culture student position which around performance. Test travel hit on cover.","estimatedTime":"9 weeks"}'

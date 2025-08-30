@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM0Ljg1ODE0NSIsInVzZXJfaWQiOiI5MTU5ODZiYS0zNzIzLTQyNjAtODhmZS05OTI4YmUzM2M5ZjQifQ.lBu0sN0KTW2gpA5vomQF0OLOHaKLopddqcEtORkm2jQ' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Until address question manage understand.","maxScore":54,"minScore":25,"description":"Reveal fly economy accept sister. His camera star American join. Situation able indicate customer miss. Whatever poor him election nor.","estimatedTime":"1 weeks","previewFileId":"8393a8b8-0a31-415f-8b7c-225ce08a4b82","createdByUserId":"915986ba-3723-4260-88fe-9928be33c9f4"}'

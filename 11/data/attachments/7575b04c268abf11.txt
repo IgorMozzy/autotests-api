@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM3LjQzNjU4MyIsInVzZXJfaWQiOiI1Y2FlOTljZS1jOTcwLTQ0MGMtYWIxMi05Mzg5ZmI0YmMyMWQifQ.jVg8zsRh9OhmgR3X41YwCga3CWlW5o8qLCfPzl88d1I' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trouble ten surface more together.","maxScore":61,"minScore":14,"description":"Memory economic chance help table within rest. Nearly four recent day food attention. Machine treat sort receive. My result spend consider course professional take.","estimatedTime":"4 weeks","previewFileId":"a3e0102a-02b0-427f-acea-01d402981920","createdByUserId":"5cae99ce-c970-440c-ab12-9389fb4bc21d"}'

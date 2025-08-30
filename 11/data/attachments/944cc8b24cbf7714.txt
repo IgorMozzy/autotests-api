@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM4LjYwNzMxMCIsInVzZXJfaWQiOiIxNzlhMmE1NC1jMDFjLTQ3ZjktYTcwYy1iYTY2ZjU0ODBmYmUifQ.GSX0hAMBzo-4Nkty3XGDNyAI6z9YycDb2vujp0pLN6g' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance enjoy ground.","maxScore":61,"minScore":4,"description":"Place record picture until another major over. Reduce writer improve season father speak yes. Wide knowledge wear.\nWant day chance. Just summer pressure market his production series.","estimatedTime":"2 weeks","previewFileId":"71348122-d9ef-42e9-b2fe-0d9c531f49ae","createdByUserId":"179a2a54-c01c-47f9-a70c-ba66f5480fbe"}'

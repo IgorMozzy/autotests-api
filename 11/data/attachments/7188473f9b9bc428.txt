@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM4LjM0MDIyMSIsInVzZXJfaWQiOiJhM2RmMTRmYS1hYmU4LTQ4NDQtOWY1Ny05NDIxMThmMDYzYzIifQ.avXpRyqibhTXfKJ36gtnj1I-xV201JuMMLIq5XsuS9s' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly save baby room let.","maxScore":87,"minScore":26,"description":"Tonight set score others detail fine care. Official go simple enjoy light big.\nSea base card lead team most decade operation. Chair person through price serious his a.","estimatedTime":"9 weeks","previewFileId":"726b294a-e9a4-4ad8-ab00-e03883a33388","createdByUserId":"a3df14fa-abe8-4844-9f57-942118f063c2"}'

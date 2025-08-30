@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM3LjE2NDAwMSIsInVzZXJfaWQiOiI5OTAxODFjZS0zNGRiLTQ4NmQtYmI0ZS1iODQyZTI4Zjk4ZmUifQ.SfJlU_9wv6JKGSNoD7NaBmo2bs_PT4g7BWkdYPq9Jpc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle keep within general catch.","maxScore":78,"minScore":8,"description":"Help open strategy share those order. Simply four main subject.\nThem consider week term run. Room success source beautiful low forward. Team operation local today government hear bag.","estimatedTime":"5 weeks","previewFileId":"7ea7d908-f5f3-4d1f-8061-e7c85e4078b5","createdByUserId":"990181ce-34db-486d-bb4e-b842e28f98fe"}'

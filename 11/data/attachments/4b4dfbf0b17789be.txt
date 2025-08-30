@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE2OjQ4OjM5LjUwNjE0NCIsInVzZXJfaWQiOiJlZTc5YzNlZS1lZjczLTQxOWUtYTJmOS1kMzhhNDEzOTg5YWYifQ.tfo2Wn2LPAhrVtE2aaY8Ye0rATwfUJbDDN67AbWBchc' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service receive central challenge international detail assume.","maxScore":61,"minScore":23,"description":"Trial line accept discuss yeah less draw. Three lawyer want next.","estimatedTime":"10 weeks","previewFileId":"e6a17a33-31b5-446f-9c27-902901b70969","createdByUserId":"ee79c3ee-ef73-419e-a2f9-d38a413989af"}'
