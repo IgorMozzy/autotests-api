@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjI3LjQ3NjA4MiIsInVzZXJfaWQiOiIzOGY2NDBhOC0yMzBjLTQ2ZmItOWVmNi03YjUwYTdmMzJkMzkifQ.uKHbQyXX6jM8c8WE8X2xWjRmtgcu0BaZa6SXFcUJu8k' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across civil responsibility.","maxScore":64,"minScore":5,"description":"Point treatment kitchen three over season different. Better entire write describe one rich learn.","estimatedTime":"3 weeks","previewFileId":"5b263245-5f9d-422a-ad73-f35602a01558","createdByUserId":"38f640a8-230c-46fb-9ef6-7b50a7f32d39"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:86 Check create course response
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Across civil responsibility.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Point treatment kitchen three over season different. Better entire write describe one rich learn.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:54 Check that "preview_file_id" equals to 5b263245-5f9d-422a-ad73-f35602a01558
+INFO     BASE_ASSERTIONS:base.py:54 Check that "created_by_user_id" equals to 38f640a8-230c-46fb-9ef6-7b50a7f32d39
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9aa7b0f2-ce88-423d-aecb-544c37b4f62d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjI3LjIwMTE1NiIsInVzZXJfaWQiOiI4YmZiNjI2Yi1kYmY4LTQ4NWEtYmRmZC1hOWY3MTE1OWRmYzYifQ.SYfGGUKvcTaJxNUi4JyNF7K6WHYGL23O4Uzdyco1eaU' \
+  -H 'content-length: 207' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate surface use author a.","maxScore":99,"minScore":25,"description":"Wait ready property summer. Knowledge pattern but tonight. Unit let grow left sell glass evidence.","estimatedTime":"1 weeks"}'

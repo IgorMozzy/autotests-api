@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjI5LjU3NzMzOCIsInVzZXJfaWQiOiJmNjFlYzU1MS0zNWU3LTQ4YmItYThiMC04ZDAyZGFjYzEwNjIifQ.DZzPF1LnAix2peXnEryIXJ8e8hN15OAbH9cshQf3Vqs' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen theory actually school let.","maxScore":87,"minScore":28,"description":"Nor office his leave. I interview sure heart walk.\nWhile view heavy place account new. Without certain quickly whole key radio explain.","estimatedTime":"9 weeks","previewFileId":"675cbed1-d693-4c18-8fc8-5cd64e6d330a","createdByUserId":"f61ec551-35e7-48bb-a8b0-8d02dacc1062"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjMwLjc2MDcwMyIsInVzZXJfaWQiOiI0ZDQxYmRmNS05ZTEwLTRjMWItYjcxMS1hZDk3OWJmZTUzNDcifQ.veNYUJguxZnGJ--C9ZuiRyidugjon2nwFmjdjJ8jRs0' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fill determine bit lay.","maxScore":66,"minScore":22,"description":"Course water assume price effort member public apply. Why woman instead control discuss evening inside. School course need order.","estimatedTime":"6 weeks","previewFileId":"3b32723f-2681-45b5-98e4-bab31d3d3c70","createdByUserId":"4d41bdf5-9e10-4c1b-b711-ad979bfe5347"}'

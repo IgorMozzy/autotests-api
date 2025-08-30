@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjI4LjY3MjI2MSIsInVzZXJfaWQiOiJhMjQ1YWNlMi0xNzIwLTRjM2MtYTBiZC0yYWIxZmYwZjY4OGIifQ.fle0fQ-3vVqzCyNB0Szv2ebOJ5rPIzBqm8loxDcyE6o' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect call never.","maxScore":94,"minScore":2,"description":"Term act to contain area plant forget. Any there move.\nOption field clearly agreement. Term base so provide nearly election. Great activity consumer and day far present.","estimatedTime":"7 weeks","previewFileId":"2a04401f-acef-44bf-835a-bebb2a336ea4","createdByUserId":"a245ace2-1720-4c3c-a0bd-2ab1ff0f688b"}'

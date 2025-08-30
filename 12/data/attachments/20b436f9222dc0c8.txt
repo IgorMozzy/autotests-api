@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/b8550d21-a222-4c3c-a598-9d6e7d5ac705
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/b8550d21-a222-4c3c-a598-9d6e7d5ac705
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:87 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+INFO     BASE_ASSERTIONS:base.py:54 Check that "id" equals to b8550d21-a222-4c3c-a598-9d6e7d5ac705
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Support PM box tonight grow support.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "course_id" equals to c85e4e5c-2a5a-4048-a235-592829354a56
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:54 Check that "order_index" equals to 80
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Rather wide stage floor. Firm hope actually area might possible.
+Side remain themselves drop. Future detail forward stay.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

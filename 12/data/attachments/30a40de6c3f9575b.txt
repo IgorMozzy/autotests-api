@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTMwVDE4OjExOjI2LjA1ODUyNyIsInVzZXJfaWQiOiIxNDM4YWM1MS0xMjI3LTQ0YzAtYjg0YS1jNzE3MjRmMTBlZjIifQ.Ejf4yce6CFoVR6uvToObZqgISOBQdWnZfItFkvSxzyw' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Start we control company.","maxScore":74,"minScore":25,"description":"Student morning pull son attention. House notice at religious enjoy like. Who space break account hand toward language.","estimatedTime":"9 weeks","previewFileId":"fb093cc1-824f-483e-8da9-2afee1cd491d","createdByUserId":"1438ac51-1227-44c0-b84a-c71724f10ef2"}'
