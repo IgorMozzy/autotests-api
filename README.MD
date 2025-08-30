@@ -62,17 +62,27 @@ pip install -r requirements.txt
 To run the tests and generate an Allure report, use the following command:
 
 ```bash
-pytest -m "regression" --alluredir=./allure-results
+pytest -m "regression" --alluredir=./allure-results --numprocesses=2
 ```
 
 This will execute all tests in the project and display the results in the terminal.
 
 ### Viewing the Allure Report
 
-After the tests have been executed, you can generate and view the Allure report with:
+After the tests have been executed, you can generate and view the Allure (if Allure is installed on your system) report with:
 
 ```bash
 allure serve allure-results
 ```
 
 This command will open the Allure report in your default web browser.
+
+#### (OPT) Viewing the Allure Report via Docker-compose Allure image
+
+It is possible to use the Docker Compose image instead of a local Allure setup. To do this, create a container using next command:
+
+```bash
+docker-compose up -d --build
+```
+
+After the container starts, you can access the HTML report (based on the contents of the allure-results directory) at the following localhost URL: [http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html?redirect=false](http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html?redirect=false)
