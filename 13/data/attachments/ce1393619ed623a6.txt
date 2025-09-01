@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjExLjQwNTY4NiIsInVzZXJfaWQiOiIzYzNhODUzNi0zNWQxLTRlNzAtOWQ4Zi1lZTI2NDg0NDQyYWMifQ.UsfXb2fiM86-CngdBxatzTu21UbucUqjrYVVZOofeAs' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Language everything yeah respond black.","maxScore":54,"minScore":15,"description":"Tree PM fire cold good world often. Activity great while from house them budget.\nLight to risk. Street get within decision.\nGarden artist institution agree.","estimatedTime":"3 weeks","previewFileId":"4886614f-4e82-4485-8015-5637430e55d4","createdByUserId":"3c3a8536-35d1-4e70-9d8f-ee26484442ac"}'

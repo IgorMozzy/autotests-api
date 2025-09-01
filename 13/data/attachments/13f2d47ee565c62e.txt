@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjEzLjcyMjQwMiIsInVzZXJfaWQiOiI0ZjkwNjM4ZC1kM2JkLTRlMDQtYmFjMC0zNGQ5ZjkyNWJkYWUifQ.ch0Ej5q8-fRUToh_101WsYVmBXAM7wH_MR6oPsuD__4' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lay beautiful new chance various activity.","maxScore":67,"minScore":26,"description":"Consider support sell. Art need budget piece quickly agreement.\nMachine everything claim room human. Condition article speak physical outside say adult.","estimatedTime":"10 weeks","previewFileId":"c5052717-ee03-4c26-b676-ff71fe6000da","createdByUserId":"4f90638d-d3bd-4e04-bac0-34d9f925bdae"}'

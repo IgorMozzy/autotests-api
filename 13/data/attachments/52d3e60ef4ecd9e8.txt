@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/282b9370-6e26-4a09-8b91-fab6a54f3d5c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE0Ljg5OTc2MCIsInVzZXJfaWQiOiI4Y2RmZjM5Yi0zNDM2LTQ2OTItYTQ5Mi0wOThkZGE1OTlhYWIifQ.BR7iSFSg8Ty_YC-1ofm95F4wvbUvsboc6BiEam0ePB8' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From north information street someone painting should movement.","maxScore":59,"minScore":3,"orderIndex":87,"description":"Condition provide you the although no best. Season group either goal. Beat my scientist war.\nTwo our listen technology quickly. Camera doctor most end energy.","estimatedTime":"3 weeks"}'

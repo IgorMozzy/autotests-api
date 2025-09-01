@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE1LjgxMTk4NiIsInVzZXJfaWQiOiIxN2E2NjJkYS1lOWYyLTQyYTMtYjQzMS0zNjRkYjk4N2EyNTQifQ.CgYTjvez0Npn_30Jz1mClfqckA3b_s7fJLZVGx8t7mM' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who four force feeling close movie.","courseId":"01fe03b0-db88-4832-8d8a-6e86800c6f98","maxScore":51,"minScore":14,"orderIndex":24,"description":"Upon total art positive consumer your care. Measure environmental which individual around.\nList left treat use pressure. Defense edge PM wonder imagine education.","estimatedTime":"10 weeks"}'

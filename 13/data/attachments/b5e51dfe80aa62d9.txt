@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE1LjgxMTk4NiIsInVzZXJfaWQiOiIxN2E2NjJkYS1lOWYyLTQyYTMtYjQzMS0zNjRkYjk4N2EyNTQifQ.CgYTjvez0Npn_30Jz1mClfqckA3b_s7fJLZVGx8t7mM' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because toward each message prove heavy.","maxScore":57,"minScore":8,"description":"Knowledge message side too middle concern suffer. Senior she professional.\nElse land trouble old. Magazine prove language society plan. Cover particularly course cell trip girl.","estimatedTime":"1 weeks","previewFileId":"cf11c837-4e36-4880-92fd-ca042d802bc9","createdByUserId":"17a662da-e9f2-42a3-b431-364db987a254"}'

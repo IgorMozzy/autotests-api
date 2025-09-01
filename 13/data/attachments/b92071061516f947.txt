@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE0LjYyNTg2NyIsInVzZXJfaWQiOiI2ZmU1MmYxMy1lZjlhLTQ4NWMtYTkzOS1iZGM1ZDliYjVhZWEifQ.ntG9DyqjYIqsvMfzlxr13diGOP3xOTJ0biy-f8t50mA' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply enter administration near Republican leave weight.","maxScore":84,"minScore":1,"description":"Forward discover single. Join economic as really. Anything receive significant piece story arrive choose.\nEconomic entire difference line. Eye career shoulder enter discussion hospital your.","estimatedTime":"9 weeks","previewFileId":"7e1c471e-3215-421c-91ce-a5395c74b14e","createdByUserId":"6fe52f13-ef9a-485c-a939-bdc5d9bb5aea"}'

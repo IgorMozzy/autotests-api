@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE0Ljg5OTc2MCIsInVzZXJfaWQiOiI4Y2RmZjM5Yi0zNDM2LTQ2OTItYTQ5Mi0wOThkZGE1OTlhYWIifQ.BR7iSFSg8Ty_YC-1ofm95F4wvbUvsboc6BiEam0ePB8' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional relationship why institution sign throughout.","courseId":"f9e468cc-d5ec-4876-9049-ae4a46e39641","maxScore":55,"minScore":13,"orderIndex":98,"description":"Suffer against take social. Sound like lot line must. Call myself build nothing Mrs.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjEzLjQ1MDc1NyIsInVzZXJfaWQiOiJmN2MxOGE3OS1jMTZkLTRiOWYtYmQxMC0wZDQyOThlYzhmNzcifQ.gTOjXcQQGqvk82iSpnYgn_SFma-6z1yvnHWJaZQ8Dqk' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score because ground.","maxScore":82,"minScore":7,"description":"Will whatever seven hold take. For discuss area part police require. Response eye national change offer number.\nClose a manager continue thus else. Nature prevent teacher.","estimatedTime":"1 weeks","previewFileId":"8da5b082-c742-4161-8c2c-04373839f662","createdByUserId":"f7c18a79-c16d-4b9f-bd10-0d4298ec8f77"}'

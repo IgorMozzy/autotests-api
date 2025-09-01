@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjE0Ljg5OTc2MCIsInVzZXJfaWQiOiI4Y2RmZjM5Yi0zNDM2LTQ2OTItYTQ5Mi0wOThkZGE1OTlhYWIifQ.BR7iSFSg8Ty_YC-1ofm95F4wvbUvsboc6BiEam0ePB8' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond best hear car stand develop fact.","maxScore":89,"minScore":29,"description":"Fall me skin beyond maybe thus. Space turn public. Popular debate more them benefit level just.","estimatedTime":"8 weeks","previewFileId":"3318da2c-4219-4da0-a1c4-d84bad973789","createdByUserId":"8cdff39b-3436-4692-a492-098dda599aab"}'

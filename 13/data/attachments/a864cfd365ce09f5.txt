@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTAxVDA4OjA5OjEyLjU4Mjg5NSIsInVzZXJfaWQiOiI2NmQ5ZTFkOC01MGY0LTQ5MDYtYTE0Zi01MzZkNjQ4Nzg0ZGMifQ.8A_GelHE2t-UzIZGLPesG1ustAsfi8r4rTiGptSX2Ww' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill so state young.","maxScore":71,"minScore":25,"description":"Civil level majority. Different country environment fast somebody sport.\nTop work point child officer. Provide expect court research act member wish positive.\nCharacter yeah can do.","estimatedTime":"3 weeks","previewFileId":"175eb942-6cc4-4be0-9d0f-04ce09e8cd4d","createdByUserId":"66d9e1d8-50f4-4906-a14f-536d648784dc"}'

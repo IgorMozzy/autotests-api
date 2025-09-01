@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:54 Check that "title" equals to Opportunity treat true arrive she whom successful production.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "course_id" equals to 611ae565-78e9-4ba3-a0e9-876f0bca94e5
+INFO     BASE_ASSERTIONS:base.py:54 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:54 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:54 Check that "order_index" equals to 76
+INFO     BASE_ASSERTIONS:base.py:54 Check that "description" equals to Mouth throw if under how. Focus under his. Firm minute service almost for strong born.
+INFO     BASE_ASSERTIONS:base.py:54 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
