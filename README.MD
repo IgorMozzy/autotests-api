@@ -86,3 +86,5 @@ docker-compose up -d --build
 ```
 
 After the container starts, you can access the HTML report (based on the contents of the allure-results directory) at the following localhost URL: [http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html?redirect=false](http://localhost:5050/allure-docker-service/projects/default/reports/latest/index.html?redirect=false)
+
+An example of an Allure report from the latest GitHub Actions workflow is available via [this link](https://igormozzy.github.io/autotests-api/).
